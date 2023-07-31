@@ -1,0 +1,34 @@
+{
+  "id": "Beep1",
+  "name": "Annoying Beep",
+  "short_name": "Beep",
+  "start_url": "https://annoyingbeep.com",
+  "display": "standalone",
+  "dir": "ltr",
+  "scope": "https:\/\/annoyingbeep.com",
+  "lang": "en",
+  "display_override": [
+    "fullscreen",
+    "minimal-ui"
+  ],
+  "description": "Finally, a website for beeping. Frustrate and annoying your friend, family, and coworkers with the most powerful tool on the web.",
+  "background_color": "#f1f5f9",
+  "dark_background_color": "#000000",
+  "theme_color": "#DC2626",
+  "orientation": "any",
+  "status_bar": "#DC2626",
+  "icons": [
+    {
+      "src": "https://annoyingbeep.com/images/android-chrome-192x192.png",
+      "type": "image\/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "https://annoyingbeep.com/images/android-chrome-512x512.png",
+      "type": "image\/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+  ]
+}
