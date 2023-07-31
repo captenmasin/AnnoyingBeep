@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Annoying Beep</title>
-    <meta name="description" content="Finally, a website for beeping. Frustrate and annoying your friend, family, and coworkers with the most powerful tool on the web.">
+    <meta name="description" content="Finally, a website for beeping. frustrate and annoy your friend, family, and coworkers with the most powerful tool on the web.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:title" content="Annoying Beep">
@@ -73,7 +73,7 @@
             Finally, a website for beeping.
         </p>
         <p>
-            Frustrate and annoying your friend, family, and coworkers with the most powerful tool on the web.
+            Frustrate and annoy your friend, family, and coworkers with the most powerful tool on the web.
         </p>
         <br>
         <div class="margin-top">
