@@ -52,7 +52,7 @@
         </div>
         <br><br>
         <div class="flex-center text-center margin-top padding-top">
-            <img src="images/mum.png" height="100" width="100" class="round mx-auto" alt="Mummy"/>
+            <img src="/images/mum.png" height="100" width="100" class="round mx-auto" alt="Mummy"/>
             <p>
                 “What? That's stupid, I don't get it.”
             </p>
