@@ -1,15 +1,16 @@
 {
-  "id": "Beep3",
+  "id": "Beep4",
   "name": "Annoying Beep",
   "short_name": "Beep",
   "start_url": "https://annoyingbeep.com",
   "display": "standalone",
   "dir": "ltr",
-  "scope": "https:\/\/annoyingbeep.com",
+  "scope": "https://annoyingbeep.com",
   "lang": "en",
   "display_override": [
     "fullscreen",
-    "minimal-ui"
+    "minimal-ui",
+    "window-controls-overlay"
   ],
   "description": "Finally, a website for beeping. frustrate and annoy your friend, family, and coworkers with the most powerful tool on the web.",
   "background_color": "#f1f5f9",
@@ -19,52 +20,62 @@
   "status_bar": "#DC2626",
   "icons": [
     {
-      "src": "https:\/\/annoyingbeep.com\/images\/icons\/144x144-maskable.png",
-      "type": "image\/png",
+      "src": "https://annoyingbeep.com/images/icons/144x144-maskable.png",
+      "type": "image/png",
       "sizes": "144x144",
       "purpose": "any"
     },
     {
-      "src": "https:\/\/annoyingbeep.com\/images\/icons\/144x144-maskable.png",
-      "type": "image\/png",
+      "src": "https://annoyingbeep.com/images/icons/144x144-maskable.png",
+      "type": "image/png",
       "sizes": "144x144",
       "purpose": "maskable"
     },
     {
-      "src": "https:\/\/annoyingbeep.com\/images\/icons\/192x192.png",
-      "type": "image\/png",
+      "src": "https://annoyingbeep.com/images/icons/192x192.png",
+      "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "https:\/\/annoyingbeep.com\/images\/icons\/192x192-maskable.png",
-      "type": "image\/png",
+      "src": "https://annoyingbeep.com/images/icons/192x192-maskable.png",
+      "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "https:\/\/annoyingbeep.com\/images\/icons\/512x512.png",
-      "type": "image\/png",
+      "src": "https://annoyingbeep.com/images/icons/512x512.png",
+      "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "https:\/\/annoyingbeep.com\/images\/icons\/512x512-maskable.png",
+      "src": "https://annoyingbeep.com/images/icons/512x512-maskable.png",
       "sizes": "512x512",
-      "type": "image\/png",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https:\/\/annoyingbeep.com\/images\/icons\/512x512-monochrome.png",
+      "src": "https://annoyingbeep.com/images/icons/512x512-monochrome.png",
       "sizes": "512x512",
-      "type": "image\/png",
+      "type": "image/png",
       "purpose": "monochrome"
     },
     {
-      "src": "https:\/\/annoyingbeep.com\/images\/icons\/1024x1024-monochrome.png",
+      "src": "https://annoyingbeep.com/images/icons/1024x1024-monochrome.png",
       "sizes": "1024x1024",
-      "type": "image\/png",
+      "type": "image/png",
       "purpose": "monochrome"
     }
-  ]
+  ],
+  "categories": [
+    "entertainment",
+    "music",
+    "utilities"
+  ],
+  "launch_handler": {
+    "client_mode": ["navigate-existing, auto"]
+  },
+  "handle_links": "not-preferred",
+  "prefer_related_applications": false
 }
