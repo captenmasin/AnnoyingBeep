@@ -9,7 +9,7 @@
 
     <meta property="og:title" content="Annoying Beep">
     <meta property="og:url" content="https://annoyingbeep.com">
-    <meta property="og:image" content="https://annoyingbeep.com/image/social.png">
+    <meta property="og:image" content="https://annoyingbeep.com/images/social.png">
 
     <link rel="stylesheet" href="/paper.min.css">
     <link rel="stylesheet" href="/app.css">
