@@ -11,16 +11,16 @@
     <meta property="og:url" content="https://annoyingbeep.com">
     <meta property="og:image" content="https://annoyingbeep.com/image/social.png">
 
-    <link rel="stylesheet" href="paper.min.css">
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="/paper.min.css">
+    <link rel="stylesheet" href="/app.css">
 
     <meta name="theme-color" content="#fafafa">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#DC2626">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#DC2626">
     <meta name="msapplication-TileColor" content="#DC2626">
     <meta name="theme-color" content="#DC2626">
 
