@@ -19,12 +19,47 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+
+    <?php include_once 'meta.php'; ?>
+
+    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+
     <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#DC2626">
     <meta name="msapplication-TileColor" content="#DC2626">
     <meta name="theme-color" content="#DC2626">
 
     <script defer data-domain="annoyingbeep.com" src="https://plausible.io/js/script.js"></script>
+
+    <script type="text/javascript">
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/service-worker.js', {
+				scope: '.'
+			}).then(async () => {
+				const registration = navigator.serviceWorker.ready;
+				if ('periodicSync' in registration) {
+					const status = await navigator.permissions.query({
+						name: 'periodic-background-sync',
+					});
+					if (status.state === 'granted') {
+						try {
+							await registration.periodicSync.register('all', {
+								minInterval: 24 * 60 * 60 * 1000
+							});
+							console.log('Periodic background sync registered!');
+						} catch (e) {
+							console.error(`Periodic background sync failed:\n${e}`);
+						}
+					}
+				}
+			});
+
+			self.addEventListener('periodicsync', (event) => {
+				console.log('Periodicsync')
+			});
+		}
+    </script>
+
+
 </head>
 
 <body class="h-screen">
@@ -61,7 +96,7 @@
             </p>
         </div>
 
-        <audio autoplay id="audio" loop>
+        <audio id="audio" loop>
             <source src="beep.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
